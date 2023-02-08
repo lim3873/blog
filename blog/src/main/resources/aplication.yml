@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/blog?serverTimezone=Asia/Seoul
+    username: cos1
+    password: cos1234
+#   serverTimezone을 mysql과 일치 시킨다
+#   데이터베이스 시간 설정 id, password
+#   intelliJ에서 mysql서버로
