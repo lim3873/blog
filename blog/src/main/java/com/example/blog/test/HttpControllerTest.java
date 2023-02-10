@@ -3,6 +3,7 @@ package com.example.blog.test;
 import org.springframework.web.bind.annotation.*;
 
 // 사용자가 요청 -> 응답(Data)
+// 인터넷 요청은 get요청밖에 할수 없다
 @RestController
 public class HttpControllerTest {
 
