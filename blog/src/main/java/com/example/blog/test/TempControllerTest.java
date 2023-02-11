@@ -15,6 +15,6 @@ public class TempControllerTest {
 
     @GetMapping("/temp/img")
     public String tempimg(){
-        return "/zzz.jpg";
+        return "/image.html";
     }
 }
